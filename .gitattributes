@@ -1,0 +1,8 @@
+# Normalize line endings on the way into the repository, whatever the author's OS does.
+* text=auto
+
+# These get pasted into Tampermonkey and read on other people's machines -- keep them LF
+# in the working tree too, so a Windows checkout doesn't hand out CRLF userscripts.
+*.js   text eol=lf
+*.md   text eol=lf
+*.json text eol=lf

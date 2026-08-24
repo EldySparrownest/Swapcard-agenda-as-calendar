@@ -1,0 +1,12 @@
+# Recon captures may embed Swapcard session tokens. Never commit them.
+recon-output/
+*.htm
+*.html
+*.har
+swapcard-recon-*.json
+
+# Editor / OS noise
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
