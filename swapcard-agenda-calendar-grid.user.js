@@ -7,7 +7,9 @@
 // @match        https://app.swapcard.com/*
 // @match        https://*.swapcard.com/*
 // @run-at       document-start
+// @icon         https://www.google.com/s2/favicons?sz=64&domain=tampermonkey.net
 // @grant        none
+// @license MIT
 // @noframes
 // ==/UserScript==
 
